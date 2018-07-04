@@ -1,0 +1,190 @@
+body
+{
+margin:0px;  
+padding:0px;
+background-image:url('tlo.png');/*from http://subtlepatterns.com*/
+background-attachment:fixed;
+}
+*
+{
+    padding: 0px;
+    margin:0px;
+    
+}
+
+#contener
+{
+    
+    width:1024px;
+    margin:0px auto;
+    
+    
+}
+
+#UPcontener
+{
+    background-color:rgba(166, 166, 166, 0.35);
+    width:1024px;
+    height:113px;
+    margin-top:10px;
+    position: relative;
+}
+.logo
+{
+   position:absolute;
+   left:20px;
+   top:20px;
+   font-size: 30px;
+   font-weight: 900;
+   text-shadow: 2px 2px white;
+   margin-top: 10px;
+   color:#9494b8;
+   border-bottom:5px #808080  solid;
+}
+
+
+#menu
+{
+    position:absolute;
+    left:360px;
+    top:10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left:0px;
+    font-family:Arial;
+    
+}
+
+ul 
+{
+    list-style-type: none;
+}
+
+#menu li 
+{
+    float: left;
+    color:#000000;
+    text-align: center;
+    border-right: 1px solid #bbb;
+}
+#menu li:last-child {
+    border-right: none;
+    padding-right: 1px;
+}
+
+#menu li a
+{
+    color:#000000;
+    text-decoration: none;
+    display: block;
+    padding:20px 20px 20px 20px;
+    
+}
+
+#menu li a:hover 
+{
+    background-color:rgb(166, 166, 166);
+}
+
+#infobox
+{
+    margin-top:20px;
+    background-color:rgba(250, 250, 250, 0.35);
+    text-align: justify;  
+    padding:70px 0px 70px 0px;
+    font-size: 20px;
+    line-height:140%;
+    border:1px gray dotted;
+    border-top:none;
+    border-bottom:none;
+}
+.opis h1
+{
+    text-align: center;
+    padding:20px 0px 20px 0px;
+    
+    
+}
+.opis
+{
+    text-align: center;
+    padding-bottom:40px;
+    
+    
+}
+
+.mapa
+{
+    text-align: center;
+    padding-bottom:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zd
+{
+  weight:512px;
+  height:340px; 
+  padding:0px 10px 5px 14px;    
+}
+
+p
+{
+margin:0px 10px 15px 10px;    
+}
+#fotter
+{
+    weight:1024px;
+    height:60px;
+    background-color:#404040;
+    color: black;
+    background-color:rgba(153, 153, 153, 0.85);
+    font-size:15px;
+    border:dotted 1px black;
+    border-right:none;
+    border-left:none;
+    position:static;
+    bottom: 0px;
+    
+}
+#fotterL
+{
+    float:left;
+    padding:10px 25px 10px 20px;
+    text-align: center;
+}
+#fotterR
+{
+    float:right;
+    padding: 10px 10px 10px 0px;
+}
+
+#fotterL li 
+{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display:compact;
+    padding:10px 20px 10px 20px;
+}
+
+#fotterL li a
+{
+    color:#000333;
+    text-decoration: none;
+    
+}
